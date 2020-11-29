@@ -1,0 +1,148 @@
+body {
+	margin: 0px;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	color: #121212;
+	background: url("../img/foncol.png")
+	
+}
+
+.page {
+	width: auto;
+	margin: 20px auto;
+	
+}
+
+.header {
+	padding: 20px;
+	background-color: #248dd9;
+	
+
+}
+
+.header-title {
+	margin: 0px;
+	font-size: 24px;
+	color: #fff;
+	text-align: left;
+}
+
+
+.header-subtitle {
+	margin: 0px;
+	font-size: 16px;
+	color: #fff;
+	text-align: left;
+	font-weight: normal;
+}
+ .nav-link {
+	display: inline-block;
+	padding: 8px 12px;
+	color: #fff;
+	text-decoration: none;
+	
+	border-right: solid 1px #248dd9;
+	border-left: solid 1px #248dd9;
+}
+ .nav {
+	text-align: right;
+}
+
+.nav-link:hover{
+	background-color: #248dd9;
+}
+
+.nav-link:hover{
+	font-weight: bold;
+}
+.image{
+	width: 600px;
+	height: 300px;
+	margin: 10px 50px;
+}
+
+.line {
+	width: auto;
+	height: 2px;
+	background-color: #248dd9;
+	margin: 5px 50px;
+}
+
+.news {
+	padding: 50px 10px;
+	text-align: right;
+}
+
+.form {
+	width: 600px;
+	padding: 20px;
+	margin: 0px auto;
+	background-color: #fff;
+}
+
+.formcontrol {
+	margin: 20px;
+}
+
+.inputform {
+	padding: 20px;	
+	border: 2px solid #000
+	
+}
+
+.inputform:focus {
+	outline: 2px solid #1d76dd;
+}
+
+.link {
+	color: #1d76dd;
+	text-decoration: none;
+}
+.link:hover {
+	color: red;
+	
+}
+
+.btn {
+	background-color: #1d76dd;
+	padding: 5px;
+	border: 2px solid blue;
+	color: #fff;
+}
+
+.btn:hover {
+	background-color: #1d96dd;
+	cursor: pointer;
+}
+
+.form-group {
+	
+	outline: 5px solid #000;
+	padding: 5px;
+
+}
+
+.ffr {
+	font-family: Arial,sans-serif;
+	font-weight: 700px;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: underline overline;
+	
+}
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
