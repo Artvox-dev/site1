@@ -1,65 +1,76 @@
 body {
 	margin: 0px;
-	font-family: Arial, sans-serif;
+	font-family: Arial, sans-serif, Century Gothic;;
 	font-size: 15px;
 	line-height: 1.5;
 	color: #121212;
-	background: url("../img/foncol.png")
+	background-image: linear-gradient(to bottom, #000, #fff);
 	
 }
 
 .page {
 	width: auto;
-	margin: 20px auto;
+	margin: 5px auto;
 	
 }
 
 .header {
-	padding: 20px;
-	background-color: #248dd9;
+	padding: 8px;
+	margin-bottom: 1px;
+	background-image: linear-gradient(to bottom, #248dd9, #145ca6);
 	
 
 }
 
 .header-title {
+	font-family: Century Gothic;
 	margin: 0px;
-	font-size: 24px;
+	
+	font-size: 40px;
 	color: #fff;
 	text-align: left;
+	text-shadow: 5px 5px 5px #000;
 }
 
 
 .header-subtitle {
+	font-family: Monotype Corsiva;
 	margin: 0px;
 	font-size: 16px;
-	color: #fff;
+	color: #f2f;
 	text-align: left;
-	font-weight: normal;
+	text-shadow: 5px 5px 5px #000;
+	
 }
  .nav-link {
-	display: inline-block;
+	font-family: Century Gothic;
 	padding: 8px 12px;
 	color: #fff;
 	text-decoration: none;
 	
-	border-right: solid 1px #248dd9;
-	border-left: solid 1px #248dd9;
+	
+	transition: color 0.2s linear;
+}
+
+.nav-link:hover{
+	color: #248dd9;
 }
  .nav {
 	text-align: right;
+	
 }
 
-.nav-link:hover{
-	background-color: #248dd9;
-}
 
-.nav-link:hover{
-	font-weight: bold;
-}
+
+
+
 .image{
-	width: 600px;
+	width: 100%;
 	height: 300px;
-	margin: 10px 50px;
+	margin: 20px 0px 20px 0px;
+	box-shadow: 15px 17px 10px #000;
+	border-radius: 5px;
+	opacity: 0.5;
 }
 
 .line {
@@ -96,6 +107,7 @@ body {
 }
 
 .link {
+	
 	color: #1d76dd;
 	text-decoration: none;
 }
@@ -132,7 +144,9 @@ body {
 	
 }
 
-
+footer{
+	text-align: center;
+}
 
 
 
